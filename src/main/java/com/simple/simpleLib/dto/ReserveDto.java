@@ -11,6 +11,10 @@ public class ReserveDto extends BaseDto {
     Long reserverId;
     Integer errorCode;
 
+    public ReserveDto() {
+        super();
+    }
+
     public ReserveDto(Boolean success) {
         this.success = success;
     }
